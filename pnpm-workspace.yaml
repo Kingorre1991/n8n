@@ -1,10 +1,12 @@
 packages:
-  - packages/*
-  - packages/@n8n/*
-  - packages/frontend/**
-  - packages/extensions/**
-  - cypress
-  - packages/testing/**
+  - "packages/backend"
+  - "packages/cli"
+  - "packages/core"
+  - "packages/editor-ui"
+  - "packages/frontend/**"
+  - "packages/extensions/**"
+  - "cypress"
+  - "packages/testing/**"
 
 catalog:
   '@n8n/typeorm': 0.3.20-12
